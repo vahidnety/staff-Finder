@@ -16,7 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //Override point for customization after application launch.
     if ([CLLocationManager locationServicesEnabled]) {
         if (!_locationManager) {
             _locationManager = [[CLLocationManager alloc] init];
